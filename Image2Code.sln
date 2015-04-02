@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Image2Code", "Image2Code\Image2Code.vcproj", "{1D5C43B0-D623-47F8-8509-91B7586D5273}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D5C43B0-D623-47F8-8509-91B7586D5273}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1D5C43B0-D623-47F8-8509-91B7586D5273}.Debug|Win32.Build.0 = Debug|Win32
+		{1D5C43B0-D623-47F8-8509-91B7586D5273}.Release|Win32.ActiveCfg = Release|Win32
+		{1D5C43B0-D623-47F8-8509-91B7586D5273}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

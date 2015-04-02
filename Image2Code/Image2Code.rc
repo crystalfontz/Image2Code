@@ -1,0 +1,270 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\Image2Code.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Image2Code.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 80
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Image2Code"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,19,21,20
+    DEFPUSHBUTTON   "OK",IDOK,113,59,50,14,WS_GROUP
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,42,16,114,8
+    LTEXT           "Crystalfontz America, Inc.",IDC_STATIC,42,25,114,8
+    LTEXT           "http://www.crystalfontz.com",IDC_STATIC,42,34,114,8
+END
+
+IDD_IMAGE2CODE_DIALOG DIALOGEX 0, 0, 383, 318
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+CAPTION "Image2Code"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Choose a file (or drag file to here)",IDC_STATIC,7,7,369,87
+    LTEXT           "",IDC_FILENAME,20,50,236,34
+    CONTROL         "",IDC_VIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,299,15,70,70
+    PUSHBUTTON      "Browse",IDC_FILEBROWSE,33,19,57,19
+    CONTROL         140,IDC_BITMAP_1BIT,"Static",SS_BITMAP,35,103,300,183
+    CONTROL         "",IDC_VERT_UP,"Button",BS_AUTORADIOBUTTON | WS_GROUP,71,98,8,10
+    CONTROL         "",IDC_VERT_DOWN,"Button",BS_AUTORADIOBUTTON,161,98,8,10
+    CONTROL         "",IDC_HORIZ_LEFT,"Button",BS_AUTORADIOBUTTON,237,98,8,10
+    CONTROL         "",IDC_HORIZ_RIGHT,"Button",BS_AUTORADIOBUTTON,303,98,8,10
+    CONTROL         "",IDC_LEFT_TO_RIGHT1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,65,121,8,10
+    CONTROL         "",IDC_RIGHT_TO_LEFT1,"Button",BS_AUTORADIOBUTTON,65,147,8,10
+    CONTROL         "",IDC_TOP_TO_BOTTOM1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,49,214,8,10
+    CONTROL         "",IDC_BOTTOM_TO_TOP1,"Button",BS_AUTORADIOBUTTON,87,214,8,10
+    CONTROL         "",IDC_PAD_LSB1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,49,271,8,10
+    CONTROL         "",IDC_PAD_MSB1,"Button",BS_AUTORADIOBUTTON,89,271,8,10
+    CONTROL         "",IDC_LEFT_TO_RIGHT2,"Button",BS_AUTORADIOBUTTON | WS_GROUP,155,121,8,10
+    CONTROL         "",IDC_RIGHT_TO_LEFT2,"Button",BS_AUTORADIOBUTTON,155,147,8,10
+    CONTROL         "",IDC_TOP_TO_BOTTOM2,"Button",BS_AUTORADIOBUTTON | WS_GROUP,139,214,8,10
+    CONTROL         "",IDC_BOTTOM_TO_TOP2,"Button",BS_AUTORADIOBUTTON,179,214,8,10
+    CONTROL         "",IDC_PAD_LSB2,"Button",BS_AUTORADIOBUTTON | WS_GROUP,179,271,8,10
+    CONTROL         "",IDC_PAD_MSB2,"Button",BS_AUTORADIOBUTTON,139,271,8,10
+    CONTROL         "",IDC_TOP_TO_BOTTOM3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,223,132,8,10
+    CONTROL         "",IDC_BOTTOM_TO_TOP3,"Button",BS_AUTORADIOBUTTON,253,132,8,10
+    CONTROL         "",IDC_LEFT_TO_RIGHT3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,215,182,8,10
+    CONTROL         "",IDC_RIGHT_TO_LEFT3,"Button",BS_AUTORADIOBUTTON,215,209,8,10
+    CONTROL         "",IDC_PAD_LSB3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,215,238,8,10
+    CONTROL         "",IDC_PAD_MSB3,"Button",BS_AUTORADIOBUTTON,215,265,8,10
+    CONTROL         "",IDC_TOP_TO_BOTTOM4,"Button",BS_AUTORADIOBUTTON | WS_GROUP,287,132,8,10
+    CONTROL         "",IDC_BOTTOM_TO_TOP4,"Button",BS_AUTORADIOBUTTON,317,132,8,10
+    CONTROL         "",IDC_LEFT_TO_RIGHT4,"Button",BS_AUTORADIOBUTTON | WS_GROUP,281,182,8,10
+    CONTROL         "",IDC_RIGHT_TO_LEFT4,"Button",BS_AUTORADIOBUTTON,281,209,8,10
+    CONTROL         "",IDC_PAD_LSB4,"Button",BS_AUTORADIOBUTTON | WS_GROUP,279,266,8,10
+    CONTROL         "",IDC_PAD_MSB4,"Button",BS_AUTORADIOBUTTON,279,238,8,10
+    CONTROL         133,IDC_BITMAP_8BIT,"Static",SS_BITMAP,157,144,69,69
+    CONTROL         "",IDC_LEFT_TO_RIGHT5,"Button",BS_AUTORADIOBUTTON | WS_GROUP,170,157,8,10
+    CONTROL         "",IDC_RIGHT_TO_LEFT5,"Button",BS_AUTORADIOBUTTON,207,157,8,10
+    CONTROL         "",IDC_TOP_TO_BOTTOM5,"Button",BS_AUTORADIOBUTTON | WS_GROUP,170,201,8,10
+    CONTROL         "",IDC_BOTTOM_TO_TOP5,"Button",BS_AUTORADIOBUTTON,207,201,8,10
+    CONTROL         "Invert Image",IDC_INVERT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,294,58,10
+    DEFPUSHBUTTON   "Convert",ID_CONVERT,260,297,50,14
+    PUSHBUTTON      "Quit",IDCANCEL,326,297,50,14
+    COMBOBOX        IDC_ARRAY_WRITER,84,294,154,12,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    ICON            IDR_MAINFRAME,IDC_STATIC,123,17,21,20
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,153,14,114,8
+    LTEXT           "Crystalfontz America, Inc.",IDC_STATIC,153,23,114,8
+    LTEXT           "http://www.crystalfontz.com",IDC_STATIC,153,32,114,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,1
+ PRODUCTVERSION 1,1,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "Crystalfontz America"
+            VALUE "FileDescription", "Image2Code - Code Generator"
+            VALUE "FileVersion", "1.1"
+            VALUE "InternalName", "Image2Code.exe"
+            VALUE "LegalCopyright", "(c) 2008 Crystalfontz America"
+            VALUE "OriginalFilename", "Image2Code.exe"
+            VALUE "ProductName", "Image2Code Code Generator"
+            VALUE "ProductVersion", "1.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_IMAGE2CODE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 311
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_8BIT                BITMAP                  "res\\bitmap_converter_dialog_8bpp_background_no_Buttons.bmp"
+IDB_1BIT_B              BITMAP                  "res\\bitmap_converter_dialog_background_with_Buttons.bmp"
+IDB_8BIT_B              BITMAP                  "res\\bitmap_converter_dialog_8bpp_background_with_Buttons.bmp"
+IDB_1BIT                BITMAP                  "res\\bitmap_converter_dialog_background_no_Buttons.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image2Code..."
+    IDS_IMAGE_LOADERROR     "Image file load error"
+    IDS_IMAGE_FORMATERROR   "Supported image format in only Grayscale with 1 or 8 bits per pixel"
+    IDS_IMAGE_NONE          "No image is loaded"
+    IDS_IMAGE_NONOTEPAD     "Loading the code into notepad failed"
+    IDS_IMAGE_TMPFILEFAIL   "Writing out the image code to a temp file failed"
+    IDS_ARRAY_WRITER_NONE   "No Array Writer Selected"
+    IDS_IMAGE_SAVEASFAIL    "Failed to Save file"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ARRAY_WRITER_INVALID_BPP 
+                            "Array writer has invalid bits per pixel (only 1 or 8 bits)"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\Image2Code.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

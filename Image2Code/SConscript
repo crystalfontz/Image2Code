@@ -1,0 +1,12 @@
+Import('*')
+
+sources=[
+    'image2codecmd.cpp',
+    'ArrayWriter.cpp',
+    'ArrayWriterUnix.cpp',
+    'ImageArray.cpp',
+    'CrossUnix.cpp',
+]
+
+env.Program('image2codecmd', sources)
+
